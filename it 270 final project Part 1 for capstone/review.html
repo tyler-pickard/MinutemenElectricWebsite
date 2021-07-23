@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+	<link rel="stylesheet" href="css/style.css">
+	<title>Minutemen Electric</title>
+	<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+
+</head>
+
+<div class=frame>
+
+<header class= headerImage style="background-image: url('image/nyc.jpg');">
+	<img src= "image/mme.png" alt = "Minutemen Logo" class = "logo">
+	<h1 class="head">
+	    Phone Number: 704-999-9999
+			<br><br>
+			Email: minutemanelectric@gmail.com
+		</h1>
+
+		<!-- list for additional pages -->
+
+		<center><ul class = "pagelist">
+
+					<li style ="display: inline;"><a href = "index.html">Home</a></li>
+					<li style ="display: inline;"><a href = "about.html">About Us</a></li>
+					<li style ="display: inline;"><a href = "services.html">Services</a></li>
+					<li style ="display: inline;"><a href = "fp.html">Finished Projects</a></li>
+					<li style ="display: inline;"><a href = "review.html">Reviews</a></li>
+					<li style ="display: inline;"><a href = "contact.html">Contact Us</a></li>
+
+				</ul></center>
+
+
+</header>
+
+<body>
+
+
+
+<img src="image/k2.jpg" alt="Kitchen" class="kitchen">
+<h2>"Danny and his team do great work at a responable price!"</h2>
+
+<h2>"Our house was outdated an in serious need of a full makeover.  Danny and his team reran all the electricial for the entire house and helped design a terrific lighting layout!"</h2>
+<h2>"We love Danny!  He's my guy for all things electricial!"</h2>
+<img src="image/tools.jpg" alt="Tools" class="toolsonreview">
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<center><h3>Let us know what you thought!</h3></center>
+<br><br><br><br>
+<form class="form">
+	Full Name <input type="text" id="fullname" name="fullname"></input><br />
+	Location<br />
+	<input type="radio" id="Kitchen" name="ServiceLocation">Kitchen</input><br />
+	<input type="radio" id="LivingRoom" name="ServiceLocation">Living Room</input><br />
+	<input type="radio" id="Bedroom" name="ServiceLocation">Bedroom</input><br />
+	<input type="radio" id="Outdoor" name="ServiceLocation">Outdoor</input><br />
+	<input type="radio" id="Other" name="ServiceLocation">Other</input><br />
+
+	Review <textarea name="review" rows="5" cols="40"></textarea><br>
+	<!-- sets up the button alert for entry -->
+	<script>
+	function showAlert(){
+		var myText = "Your entry has been sent!";
+		alert(myText);
+	}
+	</script>
+	<button class = "submit" onclick="showAlert()" >Submit</button> <br />
+
+	</form>
+
+</body>
+
+
+
+<footer>
+&copy Minutemen Electric, LLC
+</footer>
+
+
+</div>
+
+
+
+</html>

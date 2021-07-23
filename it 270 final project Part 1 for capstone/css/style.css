@@ -1,0 +1,265 @@
+/* css style sheet */
+
+body{
+	background-color: whitesmoke;
+font-family: sans-serif;
+
+}
+
+footer{
+	padding: 50px 10px;
+	text-align: center;
+	border: 2px solid red;
+	font-size: 15px;
+	background-color: white;
+	
+}
+
+header{
+
+}
+
+table{
+	width: 100%;
+	background-color: white;
+	border: 2px solid red;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+th{
+	height: 50px;
+}
+
+h2{
+	background-color: white;
+	border: 2px solid red;
+	text-align: center;
+
+}
+
+
+/* All pages */
+.frame{
+	border: 20px solid #66b3ff;
+}
+
+.headerImage{
+	background-repeat: no-repeat;
+  background-size: cover ;
+
+}
+
+.logo{
+	display: inline-block;
+     margin-right: auto;
+     margin-left: 20px;
+     height: auto;
+     width: 30%;
+}
+
+.head{
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: auto;
+	vertical-align: top;
+	font-size: 20px;
+	padding: 0px 0px 0px 50px;
+	border: 2px solid red;
+	float: right;
+	background-color: white;
+
+}
+
+.pagelist{
+	font-size: 20px;
+	padding: 30px 30px;
+	background-color: white;
+	font: sans-serif;
+
+}
+
+/* make the links black */
+a{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 14px 20px;
+	background-color: white;
+
+
+}
+
+/* Index / Home pages */
+
+.mpinfo{
+	font-size: 25px;
+	padding: 20px 20px;
+	display: inline-block;
+	background-color: white;
+	border: 2px solid red;
+}
+
+.p1{
+	height: auto;
+	width: 70%;
+	padding: 15px 10px;
+}
+.worker{
+	display: inline-block;
+	height: auto;
+	width: 25%;
+	padding: 10px 50px 10px 150px;
+
+	vertical-align: -100px;
+
+}
+
+
+/* About Us */
+.aboutme{
+	background-color: white;
+	border: 2px solid #66b3ff;
+	padding: 5px 10px 5px 10px;
+	font-size: 18px;
+	display: inline-block;
+	float: left;
+	word-wrap: break-word;
+}
+
+.navyships{
+	padding: 20px 0px;
+	display: inline-block;
+
+	width: 60%;
+	height: auto;
+}
+
+.answers{
+	background-color: white;
+	border: 2px solid #66b3ff;
+	padding: 5px 10px 5px 10px;
+	font-size: 18px;
+
+	float: left;
+	word-wrap: break-word;
+}
+
+/* Services */
+.spin{
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	vertical-align: center;
+	float: left;
+	padding: 10px 30px 10px 5px;
+}
+
+.servicetext{
+	float: right;
+	font-size: 30px;
+	border: 2px solid red;
+	word-wrap: break-word;
+	background-color: white;
+}
+
+/* Review */
+
+.kitchen{
+	float: right;
+	width: 30%;
+	height: auto;
+}
+
+.toolsonreview{
+	float: left;
+	width: 30%;
+	height: auto;
+}
+
+.form{
+	text-align: center;
+	padding 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+.submit{
+	font-size: 20px;
+	background-color: #66b3ff;
+	padding: 20px;
+
+}
+
+/* Finished Project / FP */
+
+.k1{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+.spfinished{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.teslacharger{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.f1{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+.w1{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+.r1{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+.kit1{
+	width: 50%;
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+
+/* Contact Page */
+.contactPageImage{
+	background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+.contactlist{
+	font-size: 24px;
+
+}
+
+.contactFontSize{
+	font-size: 26px;
+}
+
+.contactpage{
+	background-color: white;
+	display: inline-block;
+	border: 2px solid red;
+	padding: 15px;
+}
